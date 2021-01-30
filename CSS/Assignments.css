@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.courses_form{
+    margin: 1rem 30rem;
+    text-align: center;
+    background-color: lightgrey;
+    border: solid 2px black;
+    border-radius: 30px;
+    font-weight: bold;
+}
+.courses_form input{    
+    margin: 1rem;
+}
+.assign_head{
+    color: whitesmoke;
+    background-color: rgb(241, 183, 21);
+    border-radius: 70px 70px 0px 0px;
+}
+.buttons{
+    border-radius: 3px;
+    width: 20%;
+}
+.title{ 
+    margin-left: 6%;
+}.footer_head{
+    color:rgb(241, 183, 21);
+}
+.button_add{
+    border-radius: 3px;
+    width: 20%;
+}
+.button_edit{
+    border-radius: 3px;
+    width: 20%;
+}
+.button_update{
+    border-radius: 3px;
+    width: 20%;
+}
+.footer_style{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)), url(../Images/delfi-de-la-rua-A_InfAQM_lU-unsplash.jpg); ;
+    padding-left: 5rem;
+    background-position: bottom;
+    background-size: cover;
+    height: 200px;
+    padding-top: 40px;
+}
+address{
+    color:rgb(247, 238, 189);
+    
+}
+.fa-facebook{
+color: white;
+}
+.fa-twitter{
+    color: white;
+}
+.fa-instagram{
+    color: white;
+}
+#email{
+    color: rgb(224, 192, 192);
+}

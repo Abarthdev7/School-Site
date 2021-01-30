@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Private School</title>
+    <!--Css Links-->
+    <link rel="stylesheet" href="CSS/Style.css" type="text/css">
+    <link rel="stylesheet" href="CSS/Assignments.css">
+</head>
+
+<body>
+    <div class="header">
+        <div class="header_cont">
+            <div class="header_nav_cont">
+                <i class="header_icon fas fa-university fa-2x"></i>
+            </div>
+            <div class="header_nav">
+                <ul class="header_ul">
+                    <li class="header_li"> <a class="header_link" href="Index.html"><b>Home</b></a> </li>
+                    <li class="header_li"> <a class="header_link" href="Courses.html"><b>Courses</b></a></li>
+                    <li class="header_li"> <a class="header_link" href="Trainer.html"><b>Trainers</b></a></li>
+                    <li class="header_li"> <a class="header_link" href="Student.html"><b>Students</b></a></li>
+                    <li class="header_li"> <a class="header_link header_active"
+                            href="Assignments.html"><b>Assignments</b></a></li>
+
+                </ul>
+            </div>
+        </div>
+        <div class="header_text_cont">
+            <h1 class="header_h1">Stamford Park</h1>
+            <p class="header_p">Some people aren't used to an environment where excellence is expected. </p>
+        </div>
+    </div>
+    <!--Script-->
+    <script src="https://kit.fontawesome.com/d2989bb661.js" crossorigin="anonymous"></script>
+    <!--Assignments Form-->
+    <form class="courses_form">
+        <h2 class="assign_head">Assignments Form</h2>
+
+        <div class="title">Title:
+            <input type="text" placeholder="Assignment title" maxlength="15">
+        </div>
+        Description:<input type="text" placeholder="Write your description" maxlength="15">
+        <br>
+        Sub Date Time: <input type="date">
+        <br>
+        Oral Mark: <input type="number" min="0" max="20" class="oral_mark">
+        <br>
+        Total Mark: <input type="number" min="0" max="80">
+        <br>
+        <!--Buttons-->
+        <input type="submit" value="Add" class="button_add" onclick="submit_add()"> &nbsp;&nbsp;&nbsp;
+        <button class="button_edit" onclick="button_edit()">Edit</button>&nbsp;&nbsp;&nbsp;
+        <button class="button_update" onclick="button_update()">Update</button>&nbsp;&nbsp;&nbsp;
+    </form>
+    <!--Footer-->
+    <footer class="footer_style">
+        <h2 class="footer_head">Contact us</h2>
+        <address>
+            Email: <a href="mailto:webmaster@example.com">
+                <div id="email">info@stamfordpark.edu</div>
+            </a>
+            Visit us at:<a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-twitter"></a>
+            <a href="#" class="fa fa-instagram"></a><br>
+            Phone Number: +4900342510872<br>
+            8700 NW River Park Drive
+            Parkville<br>
+            UK
+        </address>
+
+        <h3 class="footer_write">Written by Dimitris Votsis ©</h3>
+    </footer>
+
+    <!--Scripts-->
+    <script src="Javascript/buttons.js"></script>
+</body>
+
+</html>

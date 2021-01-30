@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+background-image:linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)), url(../Images/delfi-de-la-rua-A_InfAQM_lU-unsplash.jpg);
+height: 70vh;
+background-size: cover;
+object-fit: fill;
+background-position: center;
+}
+.header_active{ 
+border-bottom: solid black;
+}
+.header_h1{
+    text-align: center;
+    margin-left: 1rem;
+    color: white;
+    
+}
+.header_nav{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    
+}
+
+.header_icon{
+    color: white;
+    margin: 1.5rem 2rem;
+}
+.header_ul{
+    display: flex;
+    
+}
+.header_li{
+    list-style: none;
+    margin: 2rem 2rem;
+        
+}
+
+.header_nav-cont{
+    display: flex;
+    justify-content: flex-start;
+}
+.header_link{
+    text-decoration: none;
+    color: white;
+}
+.header_p{
+    color: white;
+    font-size: 1.3rem;
+    font-weight: bolder;
+    margin: 1rem;
+
+}
+.header_text_cont{
+    text-align: center;
+}
+.header_cont{
+    display: flex;
+}
+.main{  
+    margin-top: 4rem;
+}
+.main_top_h1{
+    text-align: center;
+    font-size: 40px;
+}
+.main_top_p{
+    text-align: center;
+}
+.main-cont-1{
+    display: flex;
+    margin: 2rem 20rem;
+}
+.img_1{ 
+    margin-left: 3rem;
+}
+.main_h5{
+    color: gold;
+    font-size: 22px;
+}
+.footer_head{
+    color:rgb(241, 183, 21);
+}
+
+.footer_style{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)), url(../Images/delfi-de-la-rua-A_InfAQM_lU-unsplash.jpg); ;
+    padding-left: 5rem;
+    background-position: bottom;
+    background-size: cover;
+    height: 200px;
+    padding-top: 40px;
+}
+address{
+    color:rgb(247, 238, 189);
+    
+}
+.fa-facebook{
+color: white;
+}
+.fa-twitter{
+    color: white;
+}
+.fa-instagram{
+    color: white;
+}
+#email{
+    color: rgb(224, 192, 192);
+}
+.footer_head{
+    color:rgb(241, 183, 21);
+}
+.footer_style{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)), url(../Images/delfi-de-la-rua-A_InfAQM_lU-unsplash.jpg); ;
+    padding-left: 5rem;
+    background-position: bottom;
+    background-size: cover;
+    height: 200px;
+    padding-top: 40px;
+}
+address{
+    color:rgb(247, 238, 189);
+    
+}
+.fa-facebook{
+color: white;
+}
+.fa-twitter{
+    color: white;
+}
+.fa-instagram{
+    color: white;
+}
+#email{
+    color: rgb(224, 192, 192);
+}
+.footer_write{
+    position: relative;
+    left: 75%;
+    bottom: 10%;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    font-size: 180%;
+    color: rgb(247, 238, 189); 
+}

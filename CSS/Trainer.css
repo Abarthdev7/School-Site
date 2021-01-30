@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.trainer_form{
+    margin: 1rem 30rem;
+    text-align: center;
+    background-color: lightgrey;
+    border: solid 2px black;
+    border-radius: 30px;
+    font-weight: bold;
+    
+}
+.trainer_form input{    
+    margin: 1rem;
+}
+.trainer_head{
+    color: whitesmoke;
+    background-color: rgb(241, 183, 21);
+    border-radius: 70px 70px 0px 0px;
+}
+.button_add{
+    border-radius: 3px;
+    width: 20%;
+}
+.button_edit{
+    border-radius: 3px;
+    width: 20%;
+}
+.button_update{
+    border-radius: 3px;
+    width: 20%;
+}
+.trainer_firstname{ 
+    margin-left: 0%;
+}
+.trainer_subject{
+    margin-top: 6%;
+    margin-left: 3%;
+    margin-bottom: 6%;
+}
+.trainer_option{
+    margin-right: 50%;
+}
+.footer_head{
+    color:rgb(241, 183, 21);
+}
+
+.footer_style{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)), url(../Images/delfi-de-la-rua-A_InfAQM_lU-unsplash.jpg); ;
+    padding-left: 5rem;
+    background-position: bottom;
+    background-size: cover;
+    height: 200px;
+    padding-top: 40px;
+}
+address{
+    color:rgb(247, 238, 189);
+    
+}
+.fa-facebook{
+color: white;
+}
+.fa-twitter{
+    color: white;
+}
+.fa-instagram{
+    color: white;
+}
+#email{
+    color: rgb(224, 192, 192);
+}
+.trainer_list{
+    position: absolute;
+    left: 50px;
+    
+}
